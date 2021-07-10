@@ -19,7 +19,7 @@ export class RestaurantInput extends Component {
     this.setState({
       location: event.target.value
     });
-  }
+  } 
 
   handleOnSubmit = event => {
     event.preventDefault();
